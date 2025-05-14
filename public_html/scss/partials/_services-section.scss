@@ -1,4 +1,6 @@
 
+$dark-services-bg: $dark-blue;
+
 .services-section{
     padding: 11rem 0 11.3rem;
     .services-section-title{
@@ -11,6 +13,20 @@
             color: #000;
             &:hover{
                 color: $primary;
+            }
+        }
+    }
+    &.dark-srvices-section{
+        background-color: $dark-services-bg;
+        .services-section-title{
+            color: $primary;
+        }
+        .services-item{
+            .services-description{
+                color: #fff;
+                &:hover{
+                    color: $primary;
+                }
             }
         }
     }
