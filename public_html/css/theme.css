@@ -240,10 +240,10 @@ h3, .h3 {
       font-size: 2.8rem; } }
 
 h4, .h4 {
-  font-size: calc(1.365rem + 1.38vw); }
+  font-size: calc(1.345rem + 1.14vw); }
   @media (min-width: 1200px) {
     h4, .h4 {
-      font-size: 2.4rem; } }
+      font-size: 2.2rem; } }
 
 h5, .h5 {
   font-size: calc(1.325rem + 0.9vw); }
@@ -6843,7 +6843,7 @@ textarea.form-control-lg {
   font-size: calc(1.405rem + 1.86vw) !important; }
 
 .fs-4 {
-  font-size: calc(1.365rem + 1.38vw) !important; }
+  font-size: calc(1.345rem + 1.14vw) !important; }
 
 .fs-5 {
   font-size: calc(1.325rem + 0.9vw) !important; }
@@ -9350,7 +9350,7 @@ textarea.form-control-lg {
   .fs-3 {
     font-size: 2.8rem !important; }
   .fs-4 {
-    font-size: 2.4rem !important; }
+    font-size: 2.2rem !important; }
   .fs-5 {
     font-size: 2rem !important; }
   .fs-6 {
@@ -9458,6 +9458,9 @@ h1, .h1, .h1 {
 h2, .h2, .h2 {
   line-height: 4.266rem; }
 
+h4, .h4, .h4 {
+  line-height: 2.5rem; }
+
 header .navbar-brand {
   max-width: 100px;
   padding: 0; }
@@ -9512,5 +9515,68 @@ header .navbar-nav .nav-item .nav-link {
       color: #000; }
       .services-section .services-item .services-description:hover {
         color: #1A77CD; }
+
+.team-section .team-section-title {
+  margin-bottom: 6.2rem; }
+
+.team-section .team-member .team-member-content .team-member-title {
+  margin-bottom: 2.1rem;
+  color: #1A77CD; }
+  .team-section .team-member .team-member-content .team-member-title:hover {
+    color: #444; }
+
+.team-section .team-member .team-member-content .team-member-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden; }
+
+.team-section .team-member .team-member-content .team-linkedin {
+  font-size: 3rem;
+  color: #444; }
+  .team-section .team-member .team-member-content .team-linkedin:hover {
+    color: #1A77CD; }
+
+.team-section .team-member .team-member-image {
+  overflow: hidden; }
+  .team-section .team-member .team-member-image:hover img {
+    transform: scale(1.1); }
+  .team-section .team-member .team-member-image img {
+    display: block;
+    width: 100%;
+    transition: 0.3s linear; }
+
+.team-section .owl-dots {
+  margin-top: 9.2rem;
+  display: flex;
+  justify-content: center; }
+  .team-section .owl-dots .owl-dot {
+    flex: 0 0 8px;
+    width: 8px;
+    height: 8px;
+    border-right: 50%;
+    margin: 0 7px; }
+
+.info-section {
+  background-color: #11284B;
+  padding: 7.8rem 0 9.4rem; }
+  .info-section .info-section-title {
+    margin-bottom: 5.2rem; }
+  .info-section .info-contnet p, .info-section .info-contnet a {
+    color: #586C88;
+    text-decoration: none; }
+
+footer {
+  padding: 2.8rem 0 2.7rem; }
+  footer .copy-right {
+    font-size: 1.2rem;
+    color: #586C88; }
+  footer .social .social-icon {
+    margin: 0 5px;
+    font-size: 2rem;
+    color: #000;
+    transition: 0.5s linear; }
+    footer .social .social-icon:hover {
+      transform: rotate(360deg); }
 
 /*# sourceMappingURL=theme.css.map */

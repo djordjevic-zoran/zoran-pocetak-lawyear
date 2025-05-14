@@ -1,0 +1,22 @@
+
+$copy-right-color: #586C88;
+$social-color: #000;
+
+footer{
+    padding: 2.8rem 0 2.7rem;
+    .copy-right{
+        font-size: 1.2rem;
+        color: $copy-right-color;
+    }
+    .social{
+        .social-icon{
+            margin: 0 5px;
+            font-size: 2rem;
+            color: $social-color;
+            transition: 0.5s linear;
+            &:hover{
+                transform: rotate(360deg);
+            }
+        }
+    }
+}
