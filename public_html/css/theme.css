@@ -9634,4 +9634,27 @@ footer {
       .team-page-members .team-member .team-memeber-name a:hover {
         color: #1A77CD; }
 
+.single-team-member {
+  padding: 9.2rem 0 12.7rem; }
+  .single-team-member .team-member-name {
+    margin-bottom: 8px; }
+  .single-team-member .team-member-position {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    letter-spacing: 1.14%;
+    margin-bottom: 1rem; }
+  .single-team-member .team-member-linkedin {
+    color: #444;
+    font-size: 3rem;
+    margin-bottom: 1rem; }
+    .single-team-member .team-member-linkedin:hover {
+      color: #1A77CD; }
+  .single-team-member .team-member-image {
+    position: sticky;
+    -webkit-position: sticky;
+    top: 0; }
+    .single-team-member .team-member-image img {
+      display: block;
+      width: 100%; }
+
 /*# sourceMappingURL=theme.css.map */
