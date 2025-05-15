@@ -9595,4 +9595,43 @@ footer {
   .about-section .about-data h2, .about-section .about-data .h2 {
     margin-bottom: 2.6rem; }
 
+.single-services-section {
+  padding: 10.6rem 0 10.8rem; }
+  .single-services-section .single-services-inage {
+    position: sticky;
+    webkit-position: sticky;
+    top: 0; }
+    .single-services-section .single-services-inage img {
+      width: 100%;
+      display: block; }
+  .single-services-section .single-services-data h2, .single-services-section .single-services-data .h2 {
+    margin-bottom: 2.6rem; }
+  .single-services-section .single-services-data ul {
+    list-style: none;
+    padding-left: 0; }
+
+.team-page-members {
+  padding: 11.4rem 0 12.7rem; }
+  .team-page-members .team-page-members-title {
+    margin-bottom: 5.6rem; }
+  .team-page-members .team-member {
+    margin-bottom: 5.9rem; }
+    .team-page-members .team-member:hover img {
+      transform: scale(1.1); }
+    .team-page-members .team-member .team-member-image {
+      overflow: hidden;
+      margin-bottom: 2.2rem; }
+      .team-page-members .team-member .team-member-image img {
+        transition: 0.5s linear;
+        width: 100%;
+        display: block; }
+    .team-page-members .team-member .team-memeber-name a {
+      font-size: 2rem;
+      line-height: 2rem;
+      letter-spacing: 1.14%;
+      color: #000;
+      text-decoration: none; }
+      .team-page-members .team-member .team-memeber-name a:hover {
+        color: #1A77CD; }
+
 /*# sourceMappingURL=theme.css.map */
